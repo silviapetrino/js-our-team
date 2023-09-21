@@ -42,10 +42,25 @@ const membersTeam = [
 
 //2. Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 
-console.log(membersTeam)
+// console.log(membersTeam)
 
 
 
-// con un ciclo stampo le informazioni dentro il DOM con l'ultilizzo del Template literals (Template strings);
+//3. con un ciclo stampo le informazioni dentro il DOM con l'ultilizzo del Template literals (Template strings);
+
+const page = document.getElementById("main");
+
+
+for(let key in membersTeam) {
+
+  const ul = document.createElement("ul");
+  page.append(ul);
+
+  const member = membersTeam[key];
+  console.log(member)
+
+  ul.innerHTML += `<li>Nome membro: ${member.name}; Ruolo: ${member.role}; Photo: ${member.photo}</li>`
+  
+}
 
 
