@@ -1,8 +1,3 @@
-// # js-our-team
-// Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team. Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
-
-
-
 
 // 1 - salvo i dati forniti in un array di oggetti;
    // 4. trasformo l'indirizzo foto in immagine
