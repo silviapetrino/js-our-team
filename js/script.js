@@ -5,39 +5,41 @@
 
 
 // 1 - salvo i dati forniti in un array di oggetti;
+   // 4. trasformo l'indirizzo foto in immagine
 
 const membersTeam = [
   {
     name: "Wayne Barnett",
     role: "Founder & CEO",
-    photo: "wayne-barnett-founder-ceo.jpg"
+    photo: `<img src="img-team/img/wayne-barnett-founder-ceo.jpg">`
   },
   {
     name: "Angela Caroll",
     role: "Chief Editor",
-    photo: "angela-caroll-chief-editor.jpg"
+    photo:  `<img src="img-team/img/angela-caroll-chief-editor.jpg">`
   },
   {
     name: "Walter Gordon",
     role: "Office Manager",
-    photo: "walter-gordon-office-manager.jpg"
+    photo: `<img src="img-team/img/walter-gordon-office-manager.jpg">`
   },
   {
     name: "Angela Lopez",
     role: "Social Media Manager",
-    photo: "angela-lopez-social-media-manager.jpg"
+    photo: `<img src="img-team/img/angela-lopez-social-media-manager.jpg">`
   },
   {
     name: "Scott Estrada",
     role: "Developer",
-    photo: "scott-estrada-developer.jpg"
+    photo:  `<img src="img-team/img/scott-estrada-developer.jpg">`
   },
   {
     name: "Barbara Ramos",
     role: "Graphic Designer",
-    photo: "barbara-ramos-graphic-designer.jpg"
+    photo:  `<img src="img-team/img/barbara-ramos-graphic-designer.jpg">`
   }
 ]
+
 
 
 //2. Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
@@ -57,10 +59,15 @@ for(let key in membersTeam) {
   page.append(ul);
 
   const member = membersTeam[key];
-  console.log(member)
+  // console.log(member)
 
-  ul.innerHTML += `<li>Nome membro: ${member.name}; Ruolo: ${member.role}; Photo: ${member.photo}</li>`
-  
+  ul.innerHTML += `<li>Nome membro: ${member.name}; Ruolo: ${member.role}; Photo: ${member.photo}</li>`;
+
 }
 
 
+
+
+
+// 5. organizzare le info membro in una card 
+// 5.1 creo una card
