@@ -3,7 +3,6 @@ body {
   background-color: #F5F5F1;
 }
 
-
 #main {
   width: 100%;
 }
@@ -12,12 +11,14 @@ body {
   width: calc(100% / 3);
 }
 
-.card {
+.card-sp {
+  background-color: white;
   text-align: center;
   margin: 1.2rem;
-  padding: .5rem;
   cursor: pointer;
   transition: all 1s;
+  overflow: hidden;
+  padding-bottom: 1rem;
 }
 
 .card:hover {
