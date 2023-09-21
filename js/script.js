@@ -39,8 +39,10 @@ const membersTeam = [
   }
 ]
 
+
+//2. Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+
 console.log(membersTeam)
 
 
-// 2 - con un ciclo stampo le informazioni dentro il DOM con l'ultilizzo del Template literals (Template strings);
 
