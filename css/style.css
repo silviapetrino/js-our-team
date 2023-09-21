@@ -1,6 +1,7 @@
 
 body {
   background-color: #F5F5F1;
+  color: #59544C;
 }
 
 #main {
@@ -16,11 +17,11 @@ body {
   text-align: center;
   margin: 1.2rem;
   cursor: pointer;
-  transition: all 1s;
   overflow: hidden;
   padding-bottom: 1rem;
+  color: #59544C;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.card:hover {
-  transform: scale(1.1);
-}
+

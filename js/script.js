@@ -59,14 +59,11 @@ for(let key in membersTeam) {
   const member = membersTeam[key];
 
   const div = document.createElement("div");
-  div.classList.add("card");
+  div.classList.add("card-sp");
+
 
   div.innerHTML = `${member.photo} ${member.name}<br> ${member.role}`;
 
   containerCards.append(div);
 
 }
-
-
-
-
