@@ -3,4 +3,5 @@ Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membr
 
 
 1 - salvo i dati forniti in un array di oggetti;
+
 2 - con un ciclo stampo le informazioni dentro il DOM con l'ultilizzo del Template literals (Template strings);
