@@ -46,3 +46,6 @@ console.log(membersTeam)
 
 
 
+// con un ciclo stampo le informazioni dentro il DOM con l'ultilizzo del Template literals (Template strings);
+
+
