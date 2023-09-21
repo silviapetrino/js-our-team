@@ -41,33 +41,32 @@ const membersTeam = [
 ]
 
 
-
 //2. Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 
-// console.log(membersTeam)
-
-
-
 //3. con un ciclo stampo le informazioni dentro il DOM con l'ultilizzo del Template literals (Template strings);
+
+// 5. organizzare le info membro in una card 
+
 
 const page = document.getElementById("main");
 
 
 for(let key in membersTeam) {
-
-  const ul = document.createElement("ul");
-  page.append(ul);
+  const containerCards = document.createElement("div");
+  page.append(containerCards);
+  containerCards.classList.add("container-cards")
 
   const member = membersTeam[key];
-  // console.log(member)
 
-  ul.innerHTML += `<li>Nome membro: ${member.name}; Ruolo: ${member.role}; Photo: ${member.photo}</li>`;
+  const div = document.createElement("div");
+  div.classList.add("card");
+
+  div.innerHTML = `${member.photo} ${member.name}<br> ${member.role}`;
+
+  containerCards.append(div);
 
 }
 
 
 
 
-
-// 5. organizzare le info membro in una card 
-// 5.1 creo una card
