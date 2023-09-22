@@ -22,6 +22,9 @@ body {
   color: #59544C;
   font-size: 1rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: all 1s;
 }
 
-
+.card-sp:hover {
+  transform: scale(1.1);
+}

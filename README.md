@@ -1,16 +1,30 @@
 # js-our-team
-Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team. Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
+Using the provided data, create an array of objects to represent team members. Each member is characterized by the following information: name, role, and photo.
 
-1. salvo i dati forniti in un array di oggetti;
+MILESTONE 0:
+Create the array of objects with the provided information.
 
-2. Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto;
+MILESTONE 1:
+Print on the console, for each team member, the name, role, and the photo string.
 
+MILESTONE 2:
+Print the same information on the DOM as strings.
 
-3. con un ciclo stampo le informazioni dentro il DOM con l'ultilizzo del Template literals (Template strings);
+BONUS 1:
+Transform the photo string into an actual image.
 
-4. trasformo l'indirizzo foto in immagine;
+BONUS 2:
+Organize individual members into cards.
+_______________________________
 
-5. organizzo le info membro in una card.
+  -  Save the provided data in an array of objects.
 
+  -  Print on the console, for each team member, the name, role, and the photo string.
+
+  - Use a loop to print the information in the DOM using Template literals (Template strings).
+
+  -  Transform the photo address into an image.
+
+  -  Organize member info into a card format.
 
 
